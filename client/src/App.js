@@ -9,7 +9,7 @@ import Navigation from './components/Navigation/Navigation';
 import './App.css';
 import CodeEditor from './components/CodeEditor/CodeEditor';
 import { Provider } from 'react-redux';
-import store from './store';
+import store from './redux/store';
 
 class App extends Component {
   render() {
