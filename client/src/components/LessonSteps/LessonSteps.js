@@ -13,8 +13,8 @@ class Home extends Component {
         <div className="App">
           <div className="ui equal width center aligned padded grid">
             <div className="column">
-            <div>
-                <div class="login">
+              <div>
+                <div className="login">
                   <h1>Step-by-Step Lessons</h1>
                 </div>
               </div>
