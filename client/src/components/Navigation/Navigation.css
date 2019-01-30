@@ -1,3 +1,77 @@
 .navItem {
     padding: 5px;
+    color: white;
+    
+    
+    
 }
+
+ #one {
+     padding-right: 30rem;
+     padding-left: 2rem;
+     
+ }
+
+ #two {
+    padding-right: 3rem;
+ }
+ #three {
+     margin-left: 2rem;
+ }
+
+ .navbar {
+    box-shadow: 3px 3px rgb(3, 2, 17), -1em 0 .4em rgb(3, 3, 20);
+    box-shadow: inset 5em 1em rgb(17, 22, 100);
+    position: fixed;
+    width: 100%;
+    box-shadow: 0px 5px 5px rgb(51, 49, 49);
+    z-index: 10;
+ }
+
+ #video {
+    animation: wiggle 400ms 2s 16 ease-out none;
+ }
+ .user {
+     animation: flip-icon 2s ease-out forwards;
+ }
+
+ #one, #two, #three, #learn, #resources  {
+     opacity: 0;
+     animation-name: btn;
+     animation-duration: 3s;
+     animation-delay: 1s;
+     animation-fill-mode: forwards;
+ }
+
+ 
+
+ @keyframes wiggle {
+     0%{
+         transform: rotateZ(0deg);
+     }
+     50%{
+        transform: rotateZ(-10deg);
+     }
+     100%{
+         transform: rotateZ(10deg);
+     }
+ }
+
+ @keyframes flip-icon {
+     0%{
+         transform: rotateY(0);
+     }
+     50%{
+         transform: rotateY(160deg);
+     }
+     100%{
+         transform: rotateY(360deg);
+     }
+ }
+
+ @keyframes btn {
+     0% {opacity:0}
+     100% {opacity:1}
+ }
+
+ 

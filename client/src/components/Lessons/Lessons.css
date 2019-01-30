@@ -1,0 +1,21 @@
+.lessonDropdown {
+  color: black;
+}
+.lessonDropdown:hover {
+  color: black;
+}
+.lesson-container {
+  padding-top: 2rem;
+}
+.lesson-pics {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  padding-bottom: 1rem;
+}
+.lesson-header {
+  background-color: rgb(232, 230, 230);
+  padding-top: 5rem;
+  width: 95%;
+  margin: 0 auto;
+}

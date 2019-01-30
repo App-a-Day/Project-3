@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Increment a number using JavaScript",
+    "link": "https://stackblitz.com/edit/js-qkcdf5?embed=1&file=index.js",
+    "solution": "incrementedNumber++"
+  },
+  {
+    "id": 2,
+    "title": "Write a function that adds 2 numbers in JavaScript",
+    "link": "https://stackblitz.com/edit/js-vkar9c?embed=1&file=index.js",
+    "solution": "function add(a,b) {\nreturn a+b\n}"
+  },
+  {
+    "id": 3,
+    "title": "Access objects in an array",
+    "link": "https://stackblitz.com/edit/js-1wvg6o?embed=1&file=index.js",
+    "solution": "myArray[1]"
+  }
+]

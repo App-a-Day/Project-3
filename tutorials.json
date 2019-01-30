@@ -1,0 +1,8 @@
+[
+  {
+    "id": 1,
+    "title": "Increment a number using JavaScript",
+    "link": "https://stackblitz.com/edit/js-qkcdf5?embed=1&file=index.js",
+    "solution": "<p>incrementedNumber++</p>"
+  }
+]

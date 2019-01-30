@@ -1,0 +1,11 @@
+.black {
+  width: 20%;
+  opacity: 0.7;
+  background: white;
+  border-radius: 50%;
+  color: black;
+
+  margin-left: 40%;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}

@@ -3,7 +3,21 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import App from './App';
+import { Provider } from "react-redux";
+import { createStore, applyMiddleware, compose } from "redux";
+import reducers from '../src/authentication/reducers';
+const composeEnhancers = window.__REDUX_DEVTOOLS_EXTENSION_COMPOSE__ || compose;
+const store = createStore(  
+    reducers,
+    composeEnhancers(applyMiddleware())
+    );
 
 
-ReactDOM.render(<App />, document.getElementById('root'));
+
+ReactDOM.render(
+    <Provider store={store}>
+<App />
+</Provider>, 
+document.getElementById('root')
+);
 

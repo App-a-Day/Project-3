@@ -55,8 +55,12 @@ class StepByStep extends Component {
           onExited={this.onExited}
           key={item.src}
         >
-          <img src={item.src} alt={item.altText} />
+          
+          <img src={item.src} alt={item.altText} width={600} height={500}/>
           <CarouselCaption captionText={item.caption} captionHeader={item.caption} />
+           
+                
+            
         </CarouselItem>
       );
     });
